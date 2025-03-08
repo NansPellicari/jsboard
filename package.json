@@ -1,0 +1,19 @@
+{
+  "name": "jsboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/jsboard.js",
+  "types": "./dist/jsboard.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-node-externals": "^8.0.0",
+    "vite": "^6.1.0",
+    "vite-plugin-dts": "^4.5.0"
+  }
+}
